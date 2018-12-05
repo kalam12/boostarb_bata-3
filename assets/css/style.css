@@ -1,0 +1,216 @@
+@import url('https://fonts.googleapis.com/css?family=Frijole');
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+ul {
+    margin: 0;
+    padding: 0;
+}
+ul li {
+    list-style: none outside none;
+}
+h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+}
+h1, h2, h3, h4, h5, h6 {
+    margin: 0 0 15px;
+}
+a:focus, input:focus, textarea:focus, button:focus {
+  outline: 0 solid; }
+
+a {
+  text-decoration: none; }
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* orange */
+/* black */
+/* navy : #2d3142 */
+/* grey */
+/* whitesmoke */
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0 0 15px;
+ font-family: 'Frijole', cursive;
+}
+
+body{
+
+font-family: 'Frijole', cursive;
+  font-size: 14px;
+  line-height: 1.8;
+  box-sizing: border-box;
+}
+
+/* nav */
+.nav-link{
+font-style: italic;
+color: yellow;
+font-size: 2em;
+}
+.nav-link:hover{
+  color: whitesmoke;
+}
+
+#banner{
+  height: 100vh;
+  padding: 0 2.5em;
+  background-image: url('../img/work.jpg');
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  font-style: italic;
+}
+
+
+#banner h1{font-size: 2.7em; margin-bottom: 0.5em;color: red}
+
+#banner .card{
+  border-radius: 0;
+  background-color: transparent;
+  border: 0.3em solid whitesmoke;
+}
+.heading{
+  padding-bottom: 2em;
+}
+.form-control{
+  border-radius: 0;
+  background-color: whitesmoke;
+}
+#banner .btn{
+  border-radius: 3em;
+  padding: 0.5em 2.5em;
+  background-color: #f1d302 !important;
+  color: #2a2 !important;
+}
+
+#banner .btn:hover{
+  color: #f1d302;
+  background-color: whitesmoke !important;
+}
+.box{
+  display: flex;
+  height: 100vh;
+  align-items: center;
+}
+
+/* media */
+@media screen and (max-width: 576px) {
+  .box{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+}
+
+
+/* skrill */
+.titles_underline{
+  width: 18em;
+  margin: 0 auto 3rem auto;
+  border: 0.25em solid #f1d302;
+}
+#skrills .margin{
+  margin-bottom: 1.5rem;
+}
+#skrills{
+  padding: 2rem;
+  background-color: #706c61;
+}
+
+.card-body .svg-inline--fa{
+  font-size: 6em;
+  color: #f1d302;
+}
+/* skril end */
+/* price start */
+
+
+#prices{
+  padding: 8em 2em;
+  background-image: url('../img/new.jpg');
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
+}
+#prices .titles{
+  color: #f1d302;
+}
+#prices .titles_underline{
+  border-color: #2a2b2a;
+}
+#prices .card{
+  margin-bottom: 2em;
+ padding: 2em 1em;
+}
+#prices .card a{
+  background-color: #f1d302;
+  padding: 0.5em 1em;
+  color: #777525;
+}
+#prices .card a:hover{
+  background-color: #777525;
+  color: #f1d302;
+}
+#prices hr{
+  background-color: #775253;
+  height: 0.5em;
+}
+
+/* price end  */
+
+/* team start */
+#team{
+  padding: 2em;
+  background-color: #2A2B2A;
+  margin-bottom: 2em;
+  color: #f8f4e3;
+}
+
+#team .card{
+  color: #2A2B2A;
+  margin-bottom: 2em;
+}
+
+#team a{
+  color: whitesmoke;
+  font-size: 1.5em;
+  background-color: #F1d392;
+}
+#team a:hover{
+  color: whitesmoke;
+  background-color: #775253;
+}
+
+/* end of team */
+
+/* footer start */
+#footer{
+padding: 4em 2em;
+}
+#footer .footer-icon{
+font-size: 3em;
+}
+#footer .footer-icon a{
+color: #775253;
+text-decoration: none;
+}
+#footer .footer-icon a:hover{
+color: #F1d392;
+}
+/* end of footer */
